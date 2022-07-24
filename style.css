@@ -67,6 +67,7 @@ header {
   background: var(--bg-color);
   box-shadow: -2px 0 4px hsl(0 4% 15% / 10%);
   transition: 0.3s;
+  overflow: auto;
 }
 .cart.active {
   right: 0;
@@ -90,6 +91,20 @@ header {
   height: 100px;
   object-fit: contain;
   padding: 10px;
+}
+
+.non-empty {
+  top: -15px;
+  left: -25px;
+  font-size: large;
+  color: white;
+  background-color: #0071ae;
+  border-radius: 50%;
+  width: 20px;
+  display: inline-block;
+  text-align: center;
+  position: relative;
+  height: 20px;
 }
 
 .detail-box {
