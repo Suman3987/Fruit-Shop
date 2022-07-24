@@ -140,3 +140,4 @@ function updatetotal() {
       "<p>" + totalQuantity + "</p>";
   }
 }
+//  Terminal practice
